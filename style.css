@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bmi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+.bmi label, .bmi input, .bmi button{
+    display: block;
+}
+.bmi label{
+    line-height: 1.5em;
+}
+.bmi input{
+    width: 50%;
+}
+.bmi button{
+    margin-top: 2em;
+    padding: 0.8em;
+    border: none;
+    background-color: #439A86;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.bmi header, .bmi .container{
+    padding: 1em;
+}
+.bmi header{
+    min-height: 2em;
+    background-color: #439A86;
+    color: #FFFFFF;
+}
+.bmi .container{
+    border: 1px solid #BCD8C1;
+}
+#bmi-result{
+    font-weight: bold;
+}

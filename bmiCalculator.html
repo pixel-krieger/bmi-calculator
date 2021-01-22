@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator by Will</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <form action="/" method="post">
-        <label for="height">Height (meters)</label>
-        <input type="text" name="height" id="height"><br>
-        <label for="weight">Weight (kilograms)</label>
-        <input type="text" name="weight" id="weight"><br>
-        <button type="submit">Calculate BMI</button>
+    <form class="bmi" action="/results" method="post">
+        <header>
+            <h1>BMI Calculator</h1>
+        </header>
+        <div class="container">
+            <label for="height">Height (meters)</label>
+            <input type="text" name="height" id="height">
+            <label for="weight">Weight (kilograms)</label>
+            <input type="text" name="weight" id="weight">
+            <button type="submit">Calculate BMI</button>
+        </div>
     </form>
 </body>
+
 </html>
